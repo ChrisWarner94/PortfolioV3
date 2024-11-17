@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+
+// removes underline for a elements
+a {
+    text-decoration: none;
+}
+
+// removes bullet point from lists
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+// makes sections 100% of viewport
+html,
+body,
+section {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
