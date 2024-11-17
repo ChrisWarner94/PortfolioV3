@@ -1,9 +1,20 @@
-<section class="home">
-  <div class="image"><%= image_tag('background.jpg', class: 'image-background') %></div>
+<section id="section-home">
+  <ul class="navbar" id="navbar-list">
+    <li class="oswald-regular nav-link">
+      <a class="nav-link-anchor" href="#section-home">Home</a>
+    </li>
+    <li class="oswald-regular nav-link">
+      <a class="nav-link-anchor" href="#section-projects">Projects</a>
+    </li>
+    <li class="oswald-regular nav-link">
+      <a class="nav-link-anchor" href="#section-contact">Contact</a>
+    </li>
+  </ul>
+  <%= image_tag('background.jpg', class: 'image-background') %>
 </section>
-<section class="projects">
+<section id="section-projects">
   <p>projects</p>
 </section>
-<section class="contact">
+<section id="section-contact">
   <p>contact</p>
 </section>
